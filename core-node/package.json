@@ -1,37 +1,37 @@
 {
-  "engines": {
-    "node": "12.x || 14.x"
-  },
-  "dependencies": {
-    "@sap/xssec": "3.2.13",
-    "@sap/xsenv": "3.1.1",
-    "@sap/hdbext": "7.6.4",
-    "@sap/textbundle": "4.0.0",
-    "@sap/logging": "6.0.3",
-    "@sap/audit-logging": "5.5.4",
-    "@sap/jobs-client": "1.6.1",
-    "express": "4.17.1",
-    "passport": "0.6.0",
-    "async": "3.2.1",
-    "ws": "8.2.2",
-    "accept-language-parser": "1.5.0",
-    "node-xlsx": "0.18.0",
-    "node-zip": "1.1.1",
-    "xmldoc": "1.1.2",
-    "body-parser": "1.19.0",
-    "elementtree": "0.1.7",
-    "promise": "8.1.0"
-  },
-  "devDependencies": {
-    "eslint": "7.8.1"
-  },
-  "description": "",
-  "files": [],
-  "main": "server.js",
-  "name": "shine-core-node",
-  "scripts": {
-    "lint": "eslint -c .eslintrc --ignore-path .gitignore .",
-    "start": "node server.js"
-  },
-  "version": "1.9.2"
+	"engines": {
+		"node": "14.x"
+	},
+	"dependencies": {
+		"@sap/xssec": "latest",
+		"@sap/xsenv": "latest",
+		"@sap/hdbext": "latest",
+		"@sap/textbundle": "latest",
+		"@sap/logging": "latest",
+		"@sap/audit-logging": "latest",
+		"@sap/jobs-client": "latest",
+		"express": "latest",
+		"passport": "latest",
+		"async": "latest",
+		"ws": "latest",
+		"accept-language-parser": "latest",
+		"node-xlsx": "latest",
+		"node-zip": "latest",
+		"xmldoc": "latest",
+		"body-parser": "latest",
+		"elementtree": "latest",
+		"promise": "latest"
+	},
+	"devDependencies": {
+		"eslint": "latest"
+	},
+	"description": "",
+	"files": [],
+	"main": "server.js",
+	"name": "shine-core-node",
+	"scripts": {
+		"lint": "eslint -c .eslintrc --ignore-path .gitignore .",
+		"start": "node server.js"
+	},
+	"version": "1.9.2"
 }
